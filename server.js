@@ -18,7 +18,7 @@ app.get('/home' , (req , res) => {
 
 
 const PORT = process.env.PORT || 3000
-// http://localhost:8000/
+
 
 app.listen(PORT , ()=>{
     console.log(`The Server is Running on ${PORT}.`)
