@@ -13,13 +13,9 @@ app.get('/home' , (req , res) => {
     res.send("This is the Home page");
 })
 
-app.get('/contact' , (req , res) => {
-    res.send("This is the contact page");
-})
 
-app.get('/about' , (req , res) => {
-    res.send("This is the about page");
-})
+
+
 
 const PORT = process.env.PORT || 3000
 // http://localhost:8000/
